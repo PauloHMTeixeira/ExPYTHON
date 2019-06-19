@@ -19,7 +19,7 @@
 lista = []
 lista2 = []
 while True:
-    x = float(input('Diga a nota dos alunos: '))
+    x = float(input('Diga a nota dos alunos: (Digite 11 para parar) '))
     lista.append(x)
     if x > 10:
         lista.remove(11)
