@@ -3,30 +3,11 @@
 #mínimo igual a 1 e o valor máximo é 20. Se valores fora da faixa forem informados, eles devem
 #ser modificados para valores dentro da faixa de forma elegante.
 def retangulo():
-    if y == 1:
-        print('+' + ('-' * x) + '+')
+    print('+' + ('-' * x) + '+')
+    for i in range(y):
         print('|' + (' ' * x) + '|')
-        print('+' + ('-' * x) + '+')
-    if y == 2:
-        print('+' + ('-' * x) + '+')
-        print('|' + (' ' * x) + '|')
-        print('|' + (' ' * x) + '|')
-        print('+' + ('-' * x) + '+')
-    if y == 3:
-        print('+' + ('-' * x) + '+')
-        print('|' + (' ' * x) + '|')
-        print('|' + (' ' * x) + '|')
-        print('|' + (' ' * x) + '|')
-        print('+' + ('-' * x) + '+')
-    if y == 4:
-        print('+' + ('-' * x) + '+')
-        print('|' + (' ' * x) + '|')
-        print('|' + (' ' * x) + '|')
-        print('|' + (' ' * x) + '|')
-        print('|' + (' ' * x) + '|')
-        print('+' + ('-' * x) + '+')
-    else:
-        print('Tente outra combinação (no máximo 4 de altura)')
+    print('+' + ('-' * x) + '+')
+
 
 
 x = int(input('Qual o tamanho do comprimento? '))
